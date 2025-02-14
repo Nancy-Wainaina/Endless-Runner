@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: url("https://images.playground.com/192a48ea-d34d-4fb9-b061-09519d84e1ea.jpeg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    background-image: url("https://images.playground.com/e1f720f0-81b6-449a-a0d7-c48516e8c31e.jpeg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+#muteButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10; /* Ensure it's above the canvas */
+}
+
+#muteButton:hover {
+    background-color: #555;
+}
